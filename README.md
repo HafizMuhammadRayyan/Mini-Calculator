@@ -1,3 +1,5 @@
 # Mini-Calculator
 
-Practice Javascript for ai chatbot class
+Practice Javascript for Ai chatbot class
+
+Link: https://hafizmuhammadrayyan.github.io/Mini-Calculator/
