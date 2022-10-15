@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculation Of Two Numbers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="card">
+    <h1 id="heading">Calculation<br />Of Two Numbers</h1>
+
+    <form onsubmit="Calculate(); return false">
+      <input type="number" placeholder="100" id="num1" required min="1" />
+      <input type="number" placeholder="100" id="num2" required min="1" />
+
+      <div class="line">
+        <select id="val" name="val">
+          <option value="sum">Sum</option>
+          <option value="minus">Minus</option>
+          <option value="multiply">Multiply</option>
+          <option value="divide">Divide</option>
+        </select>
+
+        <button>Submit</button>
+      </div>
+    </form>
+
+    <h1 id="result"></h1>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

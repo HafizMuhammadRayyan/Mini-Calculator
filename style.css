@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00203FFF;
+    color: whitesmoke;
+}
+
+.card {
+    border: 2px outset rgb(16, 52, 88);
+    border-radius: 5%;
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+}
+
+.card>form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card>form>input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+
+}
+
+.card>form>.line {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+
+}
+
+.card>form>.line>button {
+    padding: 5px;
+}
+
+.card>#heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Aladin', cursive;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.card>h1 {
+    text-align: center;
+}
